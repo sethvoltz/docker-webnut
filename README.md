@@ -16,7 +16,7 @@ servers = [
 
 Docker-compose setup:
 
-```json
+```yaml
 version: "3.1"
 
 networks:
