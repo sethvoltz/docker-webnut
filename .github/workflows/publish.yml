@@ -1,5 +1,8 @@
 name: publish
 
+permissions:
+  packages: write
+
 on:
   push:
     branches:
