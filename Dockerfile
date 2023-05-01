@@ -1,5 +1,6 @@
 FROM python:2.7
 LABEL org.opencontainers.image.authors="seth@seth.to"
+LABEL org.opencontainers.image.source="https://github.com/sethvoltz/docker-webnut"
 
 RUN mkdir /app && \
 cd /app && \
