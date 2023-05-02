@@ -8,8 +8,8 @@ Create a config directory and file `webnut/config.py` to be mounted in the conta
 from .webnut import NUTServer
 
 servers = [
-    NUTServer('ip.of.nut.server', 3493, "username1", "password1"),
-    NUTServer('ip.of.nut.server2', 3493, "username2", "password2"),
+    NUTServer('ip.of.nut.server', 3493, 'username1', 'password1'),
+    NUTServer('ip.of.nut.server2', 3493, 'username2', 'password2'),
     # etc
 ]
 ```
